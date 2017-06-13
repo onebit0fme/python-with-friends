@@ -78,6 +78,9 @@ if not '': # note that "if not" negates the condition, so "if not True" evaluate
 
 # ============================================================
 
+# Use this function to inspect the variable type:
+# show_type(my_varible)
+
 def show_type(value):
     print('Value {} is of type {}'.format(value, type(value)))
 
